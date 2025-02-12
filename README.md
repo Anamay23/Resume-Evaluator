@@ -92,6 +92,7 @@ Modify `config.py` to update default LLM settings:
 ## Roadmap & Future Enhancements  
 🚀 **Add a feature** to compare results of different LLMs in a **table on the UI**.  
 🚀 **Allow users** to modify **model parameters** (like `temperature` and `max_tokens`) directly from the UI.  
+🚀 **Add a feature** that generates an **email to send to the recruitment team** based on your resume and job description.  
 
 ---
 
