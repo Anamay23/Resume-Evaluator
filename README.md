@@ -15,7 +15,7 @@ It provides feedback on how well the resume matches the job description and enab
 ## Setup & Installation
 
 ### Prerequisites  
-Ensure you have **Python 3.8+** installed.
+Ensure you have **Python 3.8+** installed
 
 ### 1. Clone the Repository  
 ```bash
@@ -37,8 +37,32 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure API Keys  
-Create a `.env` file and enter your API keys for all models.
+### 4. Configure API Keys and set up .env file 
+To use this tool, you need API keys for different LLMs. Here’s how you can generate them and set them up:
+
+🔑 Generate API Keys for OpenAI GPT, Gemini, and Claude
+  Visit the API platform for each model:
+    OpenAI (https://platform.openai.com/docs/overview)
+    Google AI Studio (Gemini) (https://ai.google.dev/)
+    Anthropic (Claude) (https://www.anthropic.com/)
+  Sign in or create an account
+  Navigate to the API Keys section and generate a new key
+  Copy and save the key securely
+
+🔑 Generate API Key for DeepSeek, LLaMA, and Mistral (via OpenRouter)
+  Go to OpenRouter and log in/sign up (https://openrouter.ai/)
+  Generate an API key from the API Keys section
+  This single key works for DeepSeek, LLaMA, and Mistral
+  
+📝 Add Keys to the .env File
+In your project directory, create a .env file (if it doesn’t exist) and add the keys like this:
+```ini
+OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
+CLAUDE_API_KEY=your_claude_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here  # Used for DeepSeek, LLaMA, and Mistral
+```
+
 
 ### 5. Run the Application  
 ```bash
