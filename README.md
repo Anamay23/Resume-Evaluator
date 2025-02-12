@@ -5,9 +5,9 @@ The LLM-Powered Resume Evaluator is a tool that allows users to evaluate their r
 
 
 <h2>Features</h2>
-📝 Resume Evaluation – Get feedback on how well your resume aligns with a job description \n
-🔄 Multi-LLM Support – View evaluation results from OpenAI (GPT), Gemini, Claude, LLaMA, DeepSeek, and Mistral \n
-🎛 Configurable Parameters – Adjust model settings like temperature, max tokens, top-p, and top-k for fine-tuned responses (in the code) \n
+📝 Resume Evaluation – Get feedback on how well your resume aligns with a job description
+🔄 Multi-LLM Support – View evaluation results from OpenAI (GPT), Gemini, Claude, LLaMA, DeepSeek and Mistral
+🎛 Configurable Parameters – Adjust model settings like temperature, max tokens, top-p, and top-k for fine-tuned responses (in the code)
 🖥 User-Friendly Interface – A Streamlit-based UI that allows easy input of resumes and job descriptions
 
 <h2>Setup & Installation</h2>
